@@ -38,7 +38,7 @@ class SummaryChartDataset(Dataset):
         self.ignore_id = ignore_id
         self.index=[]
         self.prompt_end_token = prompt_end_token 
-        self.API_TOKEN='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'
+        self.API_TOKEN=''
         self.tokenizer = tokenizer
         self.prompt_end_token_id = self.tokenizer.convert_tokens_to_ids(self.prompt_end_token)
         self.init_dataset()
