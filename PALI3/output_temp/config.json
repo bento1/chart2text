@@ -1,0 +1,23 @@
+{
+  "_name_or_path": "/Users/dongunyun/study/datascience/chart2text/PALI3/output_temp",
+  "architectures": [
+    "CustomPALI3"
+  ],
+  "dec_depth": 12,
+  "dec_heads": 16,
+  "dec_max_seq_len": 1024,
+  "dec_num_tokens": 32100,
+  "device": "mps",
+  "dim": 1024,
+  "enc_depth": 12,
+  "enc_heads": 16,
+  "enc_max_seq_len": 1024,
+  "enc_num_tokens": 32100,
+  "model_name": "test",
+  "model_type": "mymodel",
+  "seq_len": 1024,
+  "torch_dtype": "float32",
+  "transformers_version": "4.36.0.dev0",
+  "version": 1,
+  "vit_fix": false
+}
